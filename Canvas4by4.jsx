@@ -147,7 +147,7 @@ if(docPixels.width != docPixels.height && (docPixels.width > maxSizePixels || do
 }
 
 //update the doc size
-if(!__DEBUG___ || __DEBUG___ && updateWhenDebug)
+if(__DEBUG___ == false || (__DEBUG___ == true && updateWhenDebug))
 	activeDocument.resizeCanvas(newDocSize.width, newDocSize.height);
 
 
