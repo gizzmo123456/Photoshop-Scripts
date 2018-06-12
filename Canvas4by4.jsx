@@ -3,7 +3,7 @@ $.level = 1;
 
 //Set to true if you want data to be printed to a text layer
 //If this is set to true make shore that a text layer named 'DEBUG'
-var __DEBUG___ = true;
+var __DEBUG___ = false;
 //if false the doc size will not be updated when debuging.
 var updateWhenDebug = false;
 var debugInPx = true;	//Altho it might display cm it is px
