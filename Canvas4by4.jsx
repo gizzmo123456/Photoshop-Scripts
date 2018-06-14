@@ -71,7 +71,7 @@ var ClampToMaxPixels = function(largestSide, smallestSide){
 	
 	//While theres more than 1 px remaining add 1px to the smalles edge untill remaining is less than 1.
 	//Note this might need to be done with a raw version of remains.
-	while(remains > 1){
+	while(remainsRaw >= 1){
 		
 		smallestSide += 1;
 		
